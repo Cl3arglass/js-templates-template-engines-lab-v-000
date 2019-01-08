@@ -11,8 +11,8 @@ function createPost() {
 }
 
 function postComment() {
-  let commenter = document.getElementById('commenterName').value;
-  let comment = document.getElementById('commentText').value;
+  // let commenter = document.getElementById('commenterName').value;
+  // let comment = document.getElementById('commentText').value;
 
 
   // let commentsTemplate = document.getElementById('comments-template').innerHTML;
