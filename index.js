@@ -23,15 +23,17 @@ function postComment() {
   let commentTemplate = document.getElementById('comment-template').innerHTML;
 
   //create template function
-  let templateFn = _.template(commentsTemplate);
+  let commentsTemplateFn = _.template(commentsTemplate);
+  let commentTemplateFn = _.template(commentTemplate);
 
-  let commentsDiv = document.getElementById('comments');
+
+  // let commentsDiv = document.getElementById('comments');
 
   //execute template function with JSON object for the interpolated values
-  let templateHTML = templateFn({ comment: comment, commenter: commenter });
+  // let templateHTML = templateFn({ comment: comment, commenter: commenter });
 
   //append rather than replace!
-  
+
 
 }
 
