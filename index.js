@@ -15,11 +15,11 @@ function postComment() {
   let comment = document.getElementById('commentText').value;
 
 
-  let commentsTemplate = document.getElementById('comments-template').innerHTML;
+  // let commentsTemplate = document.getElementById('comments-template').innerHTML;
   let commentTemplate = document.getElementById('comment-template').innerHTML;
 
   //create template function
-  let commentsTemplateFn = _.template(commentsTemplate);
+  // let commentsTemplateFn = _.template(commentsTemplate);
   let commentTemplateFn = _.template(commentTemplate);
 
 
