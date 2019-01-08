@@ -31,7 +31,7 @@ function postComment() {
   let templateHTML = templateFn({ comment: comment, commenter: commenter });
 
   //append rather than replace!
-  commentsDiv.innerHTML += templateHTML;
+  
 
 }
 
